@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class PigLatinTranslatorApp {
@@ -35,8 +36,8 @@ public class PigLatinTranslatorApp {
 					translated.append(word + firstChar + "ay ");
 				}
 			}
-
-			System.out.println(translated + punctuation);
+			
+			System.out.println(translated.toString().trim() + punctuation);
 		}
 
 		System.out.println("Bye now!");
